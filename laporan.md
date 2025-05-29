@@ -35,7 +35,7 @@ Harga apartemen di Jakarta sulit diprediksi karena dipengaruhi banyak faktor, se
 
 Dataset yang digunakan dalam proyek ini diperoleh melalui proses web scraping dari situs Pinhome.id [https://www.pinhome.id/]. Data yang difokuskan hanya pada apartemen di wilayah Jakarta karena memiliki volume data yang cukup besar dan relevansi tinggi terhadap kebutuhan prediksi harga properti di kawasan urban. Data mencakup fitur seperti harga, lokasi (kelurahan, kecamatan, kota), luas bangunan, jumlah kamar tidur, status kepemilikan (Hak Guna), dan estimasi harga per meter persegi.
 
-[Link Dataset (Google Drive)](https://drive.google.com/uc?id=1-y6XXsoTLwaqOevLGh7DCxZGbTyaSBwO)
+[Link Dataset (dataset_apartemen_pinhome.csv)]
 ### Deskripsi Dataset
 
 | Fitur          | Tipe Data | Keterangan                                                                                          |
