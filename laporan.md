@@ -289,24 +289,24 @@ Tiga algoritma regresi yang dipilih untuk proses pemodelan adalah:
    Model kemudian dioptimasi menggunakan **RandomizedSearchCV** dengan 5-fold cross-validation untuk mencari kombinasi parameter terbaik berdasarkan performa terhadap data validasi.
 
    - **Decision Tree Regressor**
-     - `max_depth`: 5 – 50
-     - `min_samples_split`: 2 – 10
-     - `min_samples_leaf`: 1 – 10
+     - `max_depth`: [5, 10, 15, 20]
+     - `min_samples_split`: [2, 5, 10]
+     - `min_samples_leaf`: [1, 2, 4]
 
    - **Random Forest Regressor**
-     - `n_estimators`: 100 – 1000
-     - `max_depth`: 10 – 100
-     - `min_samples_split`: 2 – 10
-     - `min_samples_leaf`: 1 – 10
+     - `n_estimators`: [100, 200, 300]
+     - `max_depth`: [None, 10, 20, 30]
+     - `min_samples_split`: [2, 5, 10]
+     - `min_samples_leaf`: [1, 2, 4] 
      - `bootstrap`: True / False
 
    - **Gradient Boosting Regressor**
-     - `n_estimators`: 100 – 1000
-     - `learning_rate`: 0.01 – 0.2
-     - `max_depth`: 3 – 10
-     - `subsample`: 0.5 – 1.0
-     - `min_samples_split`: 2 – 10
-     - `min_samples_leaf`: 1 – 10
+     - `n_estimators`:[100, 200, 300]
+     - `max_depth`:[3, 5, 7]
+     - `learning_rate`: [0.01, 0.05, 0.1]
+     - `subsample`: [0.8, 1.0]
+     - `min_samples_split`:[2, 5]
+     - `min_samples_leaf`: [1, 3, 5]
 
 ### Kelebihan dan Kekurangan Algoritma
 
